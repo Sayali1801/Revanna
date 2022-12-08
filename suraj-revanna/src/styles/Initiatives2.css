@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,600;1,600&family=Raleway:wght@200&display=swap');
+
+*{
+  font-family: 'Figtree', sans-serif;
+}
+
+.Initiatives-main{
+padding: 40px 170px 0px 170px;
+
+}
+.title{
+margin-left: -40px;
+}
+#left-carasoul{
+    box-shadow: -10px -8px   #008080;
+}
+
+.Initiatives-top{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#left-carasoul{
+height: 300px;
+width: 300px;
+}
+
+#top-text{
+position: relative;
+    left: 40%;
+    height: 400px;
+    width: 557px; 
+    text-align: justify;
+    top: -360px;
+    z-index: 1000;
+    font-weight: 600;
+    }
+#left-background{
+}
+
+.background-img-top{
+transform: rotate(180deg);
+z-index: -1;
+position: absolute;
+top: -100px;
+right: -160px;
+width: 250px;
+height: 500px;
+opacity: 0.1;
+}
+
+
+.Initives-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bottom-text{
+    position: relative;
+left:-40%;
+    height: 400px;
+    width: 557px; 
+    text-align: justify;
+    top: -360px;
+    z-index: 1000;
+    font-weight: 600;
+
+}
+#right-background{
+    z-index: -1;
+position: absolute;
+top: 500px;
+left:-250px;
+width: 450px;
+height: 500px;
+opacity: 0.1;
+
+
+}
+#right-carasoul{
+    position: relative;
+    box-shadow: 10px 8px   #008080;
+    right: 10%;
+    height: 300px;
+    width: 300px;
+    left: 600px;
+    top: -350px;
+
+}

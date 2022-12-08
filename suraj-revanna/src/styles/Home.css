@@ -1,0 +1,80 @@
+/* *::-webkit-scrollbar{
+    display: none;
+} */
+
+.home-main {
+  /* display: flex; */
+  height: 700;
+  width: 94%;
+
+}
+.home-main img{
+    height: 500px;
+    width: 500px;
+}
+.home-left img{
+    position: absolute;
+    left: -260px;
+    top: -1.5%;
+    /* right: 0%; */
+    opacity: 0.3; 
+
+
+
+}
+
+.home-center img{
+    position:absolute;
+    left: 40%;
+    border-radius: 50%;
+    top: -14%;
+    z-index: -10;
+    opacity: 0.7;
+}
+.home-right{
+    width: 90px;
+}
+.home-right img{
+    height: 400px;
+    width: 250px;
+    position: absolute;
+    right: 0%;
+    opacity: 0.3;
+    top: 17%;
+    transform: rotate(180deg);
+
+}
+.home-front-main{
+    position: absolute;
+    top: 20%;
+    left: 176px;
+    color: #008080;
+
+}
+#meet-word{
+    letter-spacing:20px;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 50px;
+    margin-top: 20px;
+}
+.home-front-main h1{
+    font-size: 70px;
+    line-height: 70px;
+
+    /* margin: -40px 0px -20px 0px; */
+}
+.home-front-main p{
+    position: absolute;
+    font-size: 18px;
+    top: 73%;
+    left: 40%;
+    font-weight: 400;
+    line-height: 50px;
+}
+.home-main-img img{
+    position: relative;
+    top: 15%;
+    left: 45%;
+    height: 450px;
+}

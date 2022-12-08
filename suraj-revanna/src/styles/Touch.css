@@ -1,0 +1,107 @@
+.touch-main {
+  background-color: white;
+  border-radius: 0px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.background-img {
+  /* position: absolute; */
+  height: 50%;
+  width: 100vh;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  z-index: -999;
+
+
+
+
+
+}
+.touch-heading {
+  position: absolute;
+  top: 8%;
+  color: white;
+  left: 19%;
+}
+.touch-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.touch-photo {
+  position: absolute;
+  height: 350px;
+  width: 460px;
+  flex: 50%;
+  z-index: 100;
+  transform: rotate(270deg);
+  top: 28vh;
+  left: 12%;
+}
+.form-div {
+  position: absolute;
+  flex: 50%;
+  top: 20vh;
+  left: 20%;
+  height: 450px;
+  width: 800px;
+  background-color: white;
+  overflow: hidden;
+}
+.touch-form {
+  flex: 50%;
+  position: absolute;
+  left: 40%;
+  top: 15%;
+}
+
+.ring-img {
+  position: absolute;
+  opacity: 0.3;
+  top: 20%;
+
+  height: 305px;
+  left: 180%;
+  top: -60%;
+  border-radius: 0px;
+}
+
+.touch-form input {
+  height: 40px;
+  width: 340%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+  padding-top: 20px;
+}
+.touch-form button {
+  height: 40px;
+  width: 340%;
+  border: none;
+  padding-top: 20px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.touch-form input:focus {
+  outline: none;
+}
+.submit-btn {
+  display: flex;
+  padding-top: 40px;
+}
+.submit-btn button:hover {
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+#first-letter {
+  text-decoration-line: underline;
+  text-decoration-color: #008080;
+  text-underline-offset: 5px;
+}
+#last-letter {
+  text-decoration-line: overline;
+  text-decoration-color: #008080;
+  text-underline-offset: 5px;
+}
